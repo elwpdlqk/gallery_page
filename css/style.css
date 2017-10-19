@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #000;
+}
+div.gaW {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 519px;
+	height: 439px;
+	margin: auto;
+}
+div.ga {
+	float: left;
+	width: 115px;
+}
+div.ga img {
+	display: block;
+	padding: 5px; 
+	outline: 1px solid #316bba;
+	margin-bottom: 15px;
+}
+
+
+div.lag {
+	float: left;
+	height: 439px;
+}
+
+div.lag>img {
+	height: 100%;
+	padding: 10px;
+	outline: 1px solid #316bba;
+}
